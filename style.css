@@ -8,3 +8,21 @@ html,
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.intro {
+    background-position: center;
+    background-image: url('https://images.unsplash.com/photo-1553460475-164f956cf303?ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80');
+    background-size: cover;
+}
+
+.intro .container {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro h1 {
+    text-align: center;
+    color: #fff;
+}
