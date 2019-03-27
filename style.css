@@ -25,6 +25,7 @@ body {
 .intro h1 {
     text-align: center;
     color: #fff;
+    word-break: break-all;
 }
 
 .my-images {
