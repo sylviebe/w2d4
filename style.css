@@ -26,3 +26,11 @@ body {
     text-align: center;
     color: #fff;
 }
+
+.my-images {
+    height: 50vh;
+    overflow: hidden;
+}
+
+.carousel-item {
+}
