@@ -9,29 +9,17 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.intro {
-    background-position: center;
-    background-image: url('https://images.unsplash.com/photo-1553460475-164f956cf303?ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80');
-    background-size: cover;
+.container {
+    padding: 25px calc((100vw - 960px) / 2);
 }
 
-.intro .container {
-    min-height: 60vh;
+.ball {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: chartreuse;
+}
+
+.ball-wrapper {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.intro h1 {
-    text-align: center;
-    color: #fff;
-    word-break: break-all;
-}
-
-.my-images {
-    height: 50vh;
-    overflow: hidden;
-}
-
-.carousel-item {
 }
